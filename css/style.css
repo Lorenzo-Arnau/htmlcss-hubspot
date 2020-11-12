@@ -23,12 +23,14 @@
   clear: both;
 }
 .separate{
-  padding: 15px;
+  margin: 15px 0px;
 }
 .checked{
 background-color: orange;
 border-radius: 50%;
-padding: 1px;
+padding: 2px;
+font-size: 12px;
+line-height: 25px;
 }
 /* /reset e utility class */
 .section-one{
@@ -44,8 +46,9 @@ padding: 1px;
   background-color: red;
 }
 .section-four{
-  background-color: purple;
-  height: 600px;
+  background-color:  #00a9b9;
+  background-image: linear-gradient(to right, #00a9b9 , #00bba8);
+
 }
 .section-five{
   background-color: violet;
@@ -68,10 +71,7 @@ header{
   width: 100%;
   background-color: azure;
 }
-.first-menu img{
-  vertical-align: middle;
-}
-.second-menu img{
+.first-menu img , .second-menu img{
   vertical-align: middle;
 }
 .second-menu{
@@ -94,19 +94,15 @@ header{
 .jumbotron p{
   margin: 20px 0px;
 }
-.jumbotron span{
-  margin-left: 15px;
-}
+
 section{
   width: 80%;
-  height: 1200px;
   min-width: 1200px;
   margin: 0 auto;
   position: relative;
-  background-color: green;
+
 }
 .block{
-  height: 400px;
   width:100%;
   background-color: pink;
   border: 1px solid black;
@@ -114,6 +110,7 @@ section{
 .block-first div{
 text-align: center;
 width: 70%;
+height: 400px;
 margin: 20px auto;
 }
 .block-second .fl:first-child{
@@ -156,4 +153,60 @@ margin-bottom: 20px;
 }
 .block-second .fl:last-child li{
   display: inline-block;
+}
+.box{
+  width: 33.33%;
+  height: 100%;
+  border: 1px black solid;
+}
+.box-content{
+  width: 80%;
+  height: 100%;
+  background-color: green;
+  margin: auto;
+  text-align: center;
+  padding: 0px 30px;
+}
+.box-content li{
+  text-align: left;
+  list-style-type: none;
+}
+.box-content ul{
+  margin-bottom: 30px;
+}
+.box-content p{
+  margin-bottom: 30px;
+}
+.box-content .button{
+padding: 15px;
+}
+.block-third{
+height: 650px;
+}
+.learn-header{
+  width: 100%;
+  height: 150px;
+
+  text-align: center;
+  padding: 20px 20px;
+}
+.learn-block-container{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.learn-and-grow{
+  width: 25%;
+  height: 50%;
+  border-left: 1px solid black;
+  float: left;
+  text-align: center;
+  padding-top: 75px;
+}
+.learn-2row{
+  border-top: 1px solid black;
+}
+.first-of-row{
+  border-left: none;
 }
