@@ -33,16 +33,23 @@ font-size: 12px;
 line-height: 25px;
 }
 
+.button{
+  background-color: #fe775a;
+  color: #ffe8e4;
+  font-weight: bold;
+  border-radius: 10px;
+}
 /* /reset e utility class */
+.header-continue{
+  width: 100%;
+}
 .section-one{
-  background-color: pink;
+  background-image: url("../img/jumbotron.png");
+  background-position: right;
+  background-size: 2000px 600px;
+  background-repeat: no-repeat;
 }
-.section-two{
-  background-color: blue;
-  height: 100px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-}
+
 .section-three{
   background-color: red;
 }
@@ -65,35 +72,77 @@ header{
   min-width: 1200px;
   margin: 0 auto;
   position: relative;
-  background-color: green;
 }
 .first-menu{
   height: 50px;
   width: 100%;
-  background-color: azure;
+  margin: auto;
+  background-color: #f4f9fd;
+  color:#4c5f70;
+  font-size: 18px;
+  border-bottom: 2px #ccc solid;
+
 }
-.first-menu img , .second-menu img{
+.first-menu img {
   vertical-align: middle;
+  position: relative;
+  bottom: 2px;
+}
+.first-menu ul:first-child{
+  font-weight: bold;
+}
+.first-menu ul{
+  position: relative;
+  top: 10px;
+}
+.first-menu ul:first-child li:first-child{
+  border-right: 1px solid #4c5f70;
 }
 .second-menu{
-  height: 50px;
   width: 100%;
-  background-color: blue;
+  margin: auto;
+  background-color: #fff;
+  color:#4c5f70;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+.second-menu ul:first-child img{
+  height: 45px;
 }
 .second-menu li,.first-menu li{
   display: inline-block;
 }
-.button{
-  background-color: orange;
+.first-menu ul:nth-child(2) li:nth-child(2){
+  background-color: transparent;
+  color: #fe775a;
+  border: 1px solid  #fe775a;
+  padding: 4px;
+}
+.first-menu ul:nth-child(2) li:nth-child(3){
+  padding: 4px;
 }
 .jumbotron{
   height: 400px;
-  width: 300px;
+  width: 550px;
   margin-top: 30px;
   padding-left: 20px;
+  color:#4c5f70;
+}
+.jumbotron h1{
+    color:#4c5f70;
+    font-size: 45px;
+    font-weight: bold;
 }
 .jumbotron p{
-  margin: 20px 0px;
+  margin: 40px 0px;
+  font-size: 14px;
+}
+.jumbotron p:nth-child(2){
+  font-size: 18px;
+}
+.jumbotron span{
+  padding: 15px;
 }
 
 section{
