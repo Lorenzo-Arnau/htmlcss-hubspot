@@ -7,7 +7,6 @@
 .container{
   width: 100%;
   min-width: 1200px;
-  border-bottom: 1px solid #eee;
   margin: 0 auto;
   position: relative;
 }
@@ -40,13 +39,20 @@ line-height: 25px;
   border-radius: 10px;
 }
 /* /reset e utility class */
-.header-continue{
-  width: 100%;
-}
+
 .section-one{
-  background-image: url("../img/jumbotron.png");
+width: 100%;
+background-image:url("../img/header-continue.jpg");
+background-position: center;
+}
+.section-one div:first-child{
+  width: 80%;
+  margin: auto;
+}
+.section-two{
+  background:url("../img/jumbotron.png"),#FFF3EE;
   background-position: right;
-  background-size: 2000px 600px;
+  background-size: 2000px 650px;
   background-repeat: no-repeat;
 }
 
@@ -125,11 +131,10 @@ header{
 .jumbotron{
   height: 400px;
   width: 550px;
-  margin-top: 30px;
-  padding-left: 20px;
   color:#4c5f70;
 }
 .jumbotron h1{
+    padding-top: 60px;
     color:#4c5f70;
     font-size: 45px;
     font-weight: bold;
