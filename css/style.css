@@ -9,6 +9,7 @@
   min-width: 1200px;
   margin: 0 auto;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
 }
 .fl{
   float: left;
@@ -28,7 +29,6 @@
 background-color: orange;
 border-radius: 50%;
 padding: 2px;
-font-size: 12px;
 line-height: 25px;
 }
 
@@ -43,7 +43,8 @@ line-height: 25px;
 .section-one{
 width: 100%;
 background-image:url("../img/header-continue.jpg");
-background-position: center;
+background-position: 0px 2px;
+
 }
 .section-one div:first-child{
   width: 80%;
@@ -51,8 +52,7 @@ background-position: center;
 }
 .section-two{
   background:url("../img/jumbotron.png"),#FFF3EE;
-  background-position: right;
-  background-size: 2000px 650px;
+  background-position: right bottom;
   background-repeat: no-repeat;
 }
 
@@ -80,7 +80,7 @@ header{
   position: relative;
 }
 .first-menu{
-  height: 50px;
+  height: 60px;
   width: 100%;
   margin: auto;
   background-color: #f4f9fd;
@@ -98,11 +98,12 @@ header{
   font-weight: bold;
 }
 .first-menu ul{
-  position: relative;
-  top: 10px;
+  line-height: 60px;
 }
 .first-menu ul:first-child li:first-child{
   border-right: 1px solid #4c5f70;
+  line-height: 18px;
+  padding-right: 5px;
 }
 .second-menu{
   width: 100%;
@@ -112,6 +113,9 @@ header{
   font-weight: bold;
   font-size: 18px;
   line-height: 40px;
+}
+.second-menu .fr{
+  line-height: 45px;
 }
 .second-menu ul:first-child img{
   height: 45px;
@@ -124,14 +128,17 @@ header{
   color: #fe775a;
   border: 1px solid  #fe775a;
   padding: 4px;
+  line-height: 18px;
 }
 .first-menu ul:nth-child(2) li:nth-child(3){
   padding: 4px;
+  line-height: 18px;
 }
 .jumbotron{
   height: 400px;
   width: 550px;
   color:#4c5f70;
+  position: relative;
 }
 .jumbotron h1{
     padding-top: 60px;
@@ -149,6 +156,18 @@ header{
 .jumbotron span{
   padding: 15px;
 }
+/* TODO: finire il jumbotron pratino */
+.section-two:before{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  content: "";
+  background-color: #afebe4;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+}
 
 section{
   width: 80%;
@@ -164,17 +183,27 @@ section{
 .block-first div{
 text-align: center;
 width: 70%;
-height: 400px;
-margin: 20px auto;
+margin: auto;
+color:#4c5f70;
+}
+.block-first div h2{
+font-size: 35px;
+}
+.block-first div p{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 30px 20px;
+}
+.block-second{
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
 }
 .block-second .fl:first-child{
   width: 35%;
   height: 400px;
   background-color: #fff;
+  border-radius: 10px;
   position: relative;
-  box-shadow: 2px 2px 5px #000;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 .block-third{
   margin-top: 50px;
@@ -197,17 +226,14 @@ margin-bottom: 20px;
   width: 65%;
   height: 400px;
   background-color: #fff;
-  box-shadow: 2px 2px 5px #000;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  font-size: 25px;
+  border-radius: 10px;
   position: relative;
 }
 .block-second .fl:last-child div{
   position: relative;
   top: 50px;
   left: 40px;
-  background-color: violet;
+  color:#4c5f70;
   width: 80%;
 }
 .block-second .fl:last-child hr{
@@ -217,6 +243,20 @@ margin-bottom: 20px;
 }
 .block-second .fl:last-child li{
   display: inline-block;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.block-second .fl:last-child h2{
+  font-size: 35px;
+  padding-top: 20px;
+}
+.block-second .fl:last-child p{
+  font-size: 18px;
+  padding-top: 20px;
+}
+.block-second .fl:last-child span{
+  font-size: 18px;
+  font-weight: bold;
 }
 .box{
   width: 33.33%;
@@ -252,7 +292,6 @@ height: 650px;
 .learn-header{
   width: 100%;
   height: 150px;
-
   text-align: center;
   padding: 20px 20px;
 }
