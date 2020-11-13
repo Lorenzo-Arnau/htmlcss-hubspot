@@ -114,12 +114,14 @@ header{
   font-weight: bold;
   font-size: 18px;
   line-height: 40px;
+  padding-top: 20px;
 }
 .second-menu .fr{
   line-height: 45px;
 }
 .second-menu ul:first-child img{
   height: 45px;
+
 }
 .second-menu li,.first-menu li{
   display: inline-block;
