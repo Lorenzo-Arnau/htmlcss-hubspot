@@ -43,13 +43,17 @@ line-height: 25px;
 
 .section-one{
 width: 100%;
-background-image:url("../img/header-continue.jpg");
-background-position: 0px 2px;
-
 }
 .section-one div:first-child{
-  width: 80%;
+  width: 100%;
   margin: auto;
+  background-color:#f4f9fd;
+  border-bottom: 1px solid #ccc;
+}
+.section-one div:nth-child(2){
+  width: 100%;
+  margin: auto;
+  border-top: 1px solid #ccc;
 }
 .section-two{
   background:url("../img/jumbotron.png"),#FFF3EE;
@@ -79,12 +83,11 @@ header{
 }
 .first-menu{
   height: 60px;
-  width: 100%;
+  width: 80%;
   margin: auto;
   background-color: #f4f9fd;
   color:#4c5f70;
   font-size: 16px;
-  border-bottom: 2px #ccc solid;
 
 }
 .first-menu img {
@@ -104,7 +107,7 @@ header{
   padding-right: 5px;
 }
 .second-menu{
-  width: 100%;
+  width: 80%;
   margin: auto;
   background-color: #fff;
   color:#4c5f70;
