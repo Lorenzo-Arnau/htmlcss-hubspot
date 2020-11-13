@@ -83,7 +83,7 @@ header{
   margin: auto;
   background-color: #f4f9fd;
   color:#4c5f70;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: 2px #ccc solid;
 
 }
@@ -100,7 +100,7 @@ header{
 }
 .first-menu ul:first-child li:first-child{
   border-right: 1px solid #4c5f70;
-  line-height: 18px;
+  line-height: 20px;
   padding-right: 5px;
 }
 .second-menu{
@@ -126,11 +126,11 @@ header{
   color: #fe775a;
   border: 1px solid  #fe775a;
   padding: 4px;
-  line-height: 18px;
+  line-height: 22px;
 }
 .first-menu ul:nth-child(2) li:nth-child(3){
   padding: 4px;
-  line-height: 18px;
+  line-height: 22px;
 }
 .jumbotron{
   height: 400px;
