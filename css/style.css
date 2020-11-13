@@ -188,21 +188,24 @@ text-align: center;
 width: 70%;
 margin: auto;
 color:#4c5f70;
+padding-top: 30px;
+
 }
 .block-first div h2{
 font-size: 35px;
+padding-top: 20px;
 }
 .block-first div p{
   font-size: 18px;
   font-weight: 600;
-  padding: 30px 20px;
+  padding: 30px 20px 50px 20px;
 }
 .block-second{
   box-shadow: 2px 2px 5px #000;
   border-radius: 10px;
 }
 .block-second .fl:first-child{
-  width: 35%;
+  width: 25%;
   height: 400px;
   background-color: #fff;
   border-radius: 10px;
@@ -224,7 +227,7 @@ margin-bottom: 20px;
   padding: 15px;
 }
 .block-second .fl:last-child{
-  width: 65%;
+  width: 75%;
   height: 400px;
   background-color: #fff;
   border-radius: 10px;
@@ -263,6 +266,9 @@ margin-bottom: 20px;
  position: relative;
  top: 10px;
  border-color: #ccc;
+}
+.block-second .fl:last-child i{
+ margin-right: 10px;
 }
 .box{
   width: 33.33%;
@@ -340,6 +346,9 @@ margin-top: 50px;
   vertical-align: middle;
   padding-top: 70px;
   color: #fff;
+}
+.learn-and-grow img{
+  height: 55px;
 }
 .learn-and-grow h2{
   font-size: 35px;
@@ -429,6 +438,9 @@ font-weight: 400;
   width: 25%;
   height: 100%;
 }
+.final-section .fl:nth-child(4) {
+  padding-right: 150px;
+}
 
 .final-section div:nth-child(2) li{
   display: inline-block;
@@ -438,7 +450,7 @@ font-weight: 400;
 }
 .final-section li{
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   padding: 20px 5px;
 }
 footer{
@@ -454,9 +466,7 @@ footer{
 }
 .support-button{
  background-color:#c2cedb;
- color: white;
- width: 300px;
- margin: auto;
+ color: #32495b;
  border-radius: 10px;
 }
 .icon-section i{
