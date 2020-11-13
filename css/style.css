@@ -57,7 +57,7 @@ background-position: center;
 }
 
 .section-three{
-  background-color: red;
+  background-color: #f4f9fd;
 }
 .section-four{
   background-color:  #00a9b9;
@@ -159,8 +159,7 @@ section{
 }
 .block{
   width:100%;
-  background-color: pink;
-  border: 1px solid black;
+  background-color: #f4f9fd;
 }
 .block-first div{
 text-align: center;
@@ -171,8 +170,14 @@ margin: 20px auto;
 .block-second .fl:first-child{
   width: 35%;
   height: 400px;
-  background-color: blue;
+  background-color: #fff;
   position: relative;
+  box-shadow: 2px 2px 5px #000;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.block-third{
+  margin-top: 50px;
 }
 .container-learn{
   height: 300px;
@@ -191,7 +196,11 @@ margin-bottom: 20px;
 .block-second .fl:last-child{
   width: 65%;
   height: 400px;
-  background-color: green;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #000;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 25px;
   position: relative;
 }
 .block-second .fl:last-child div{
@@ -212,12 +221,14 @@ margin-bottom: 20px;
 .box{
   width: 33.33%;
   height: 100%;
-  border: 1px black solid;
+  padding-bottom: 10px;
 }
 .box-content{
   width: 80%;
   height: 100%;
-  background-color: green;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 10px;
   margin: auto;
   text-align: center;
   padding: 0px 30px;
