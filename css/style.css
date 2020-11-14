@@ -465,9 +465,7 @@ font-weight: 400;
 .final-section div:nth-child(2) li{
   display: inline-block;
 }
-.final-section div:nth-child(2) ul{
-  text-align: center;
-}
+
 .final-section li{
   list-style-type: none;
   text-align: left;
@@ -502,6 +500,13 @@ footer div:nth-child(2) li{
 }
 footer div:first-child{
   margin-top: 30px;
+}
+.languages{
+width: 40%;
+margin: auto;
+}
+.languages li{
+  padding-left: 25px;
 }
 /* Sezione finale di sviluppo footer e credits  */
 /* end version checked */
