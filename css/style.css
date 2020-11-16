@@ -36,32 +36,45 @@ line-height: 25px;
 .button{
   background-color: #fe775a;
   color: #ffe8e4;
-  font-weight: bold;
   border-radius: 10px;
+}
+.button-big{
+  padding: 25px 40px;
+}
+.button-little{
+  padding: 8px 4px;
+  line-height: 22px;
 }
 section{
   width: 80%;
   min-width: 1200px;
   margin: 0 auto;
   position: relative;
-
 }
+.shadow-maker{
+  box-shadow: 1px 1px 10px #ccc;
+  border-radius: 10px;
+}
+p,span,li{
+  font-weight: 600;
+}
+
 /* /reset e utility class */
 
 
 /* SPAZIO RISERVATO ALLE VARIE SEZIONI PAGINA PER I MACRO-CAMBIAMENTI */
 .section-one{
-width: 100%;
+ width: 100%;
 }
-.section-one div:first-child{
+.section-one div{
   width: 100%;
   margin: auto;
+}
+.section-one div:first-child{
   background-color:#f4f9fd;
   border-bottom: 1px solid #ccc;
 }
 .section-one div:nth-child(2){
-  width: 100%;
-  margin: auto;
   border-top: 1px solid #ccc;
 }
 .section-two{
@@ -74,7 +87,7 @@ width: 100%;
 }
 .section-four{
   background-color:  #00a9b9;
-  background-image: linear-gradient(to right, #00a9b9 , #00bba8);
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 .section-six{
   background-color: #32495b;
@@ -95,15 +108,11 @@ width: 100%;
   background-color: #f4f9fd;
   color:#4c5f70;
   font-size: 16px;
-
 }
 .first-menu img {
   vertical-align: middle;
   position: relative;
   bottom: 2px;
-}
-.first-menu ul:first-child{
-  font-weight: bold;
 }
 .first-menu ul{
   line-height: 60px;
@@ -118,17 +127,9 @@ width: 100%;
   margin: auto;
   background-color: #fff;
   color:#4c5f70;
-  font-weight: bold;
   font-size: 18px;
   line-height: 40px;
-  padding-top: 20px;
-}
-.second-menu .fr{
-  line-height: 45px;
-}
-.second-menu ul:first-child img{
-  height: 45px;
-
+  padding: 10px 0px;
 }
 .second-menu li,.first-menu li{
   display: inline-block;
@@ -137,12 +138,6 @@ width: 100%;
   background-color: transparent;
   color: #fe775a;
   border: 1px solid  #fe775a;
-  padding: 4px;
-  line-height: 22px;
-}
-.first-menu ul:nth-child(2) li:nth-child(3){
-  padding: 4px;
-  line-height: 22px;
 }
 /* /creo la parte principale dell'header con i due menu e le nav bar */
 
@@ -164,7 +159,6 @@ header{
     padding-top: 60px;
     color:#4c5f70;
     font-size: 45px;
-    font-weight: bold;
 }
 .jumbotron p{
   margin: 40px 0px;
@@ -172,9 +166,6 @@ header{
 }
 .jumbotron p:nth-child(2){
   font-size: 18px;
-}
-.jumbotron span{
-  padding: 15px;
 }
 .section-two:before{
   position: absolute;
@@ -195,26 +186,23 @@ header{
   background-color: #f4f9fd;
 }
 .block-first div{
-text-align: center;
-width: 70%;
-margin: auto;
-color:#4c5f70;
-padding-top: 30px;
+ text-align: center;
+ width: 70%;
+ margin: auto;
+ color:#4c5f70;
+ padding-top: 30px;
 
 }
 .block-first div h2{
-font-size: 35px;
-padding-top: 20px;
+ font-size: 35px;
+ padding-top: 20px;
 }
 .block-first div p{
   font-size: 18px;
   font-weight: 600;
   padding: 30px 20px 50px 20px;
 }
-.block-second{
-  box-shadow: 2px 2px 5px #000;
-  border-radius: 10px;
-}
+
 .block-second .fl:first-child{
   width: 25%;
   height: 400px;
@@ -231,11 +219,8 @@ padding-top: 20px;
   margin-right: 50px;
 }
 .container-learn img{
-width: 100%;
-margin-bottom: 20px;
-}
-.container-learn span{
-  padding: 15px;
+ width: 100%;
+ margin-bottom: 20px;
 }
 .block-second .fl:last-child{
   width: 75%;
@@ -256,22 +241,18 @@ margin-bottom: 20px;
   display: inline-block;
   margin-left: 10px;
 }
+.block-second .fl:last-child li,.block-second .fl:last-child h2,.block-second .fl:last-child p{
+  padding-top: 20px;
+}
+.block-second .fl:last-child p,.block-second .fl:last-child span{
+  font-size: 18px;
+}
 .block-second .fl:last-child li{
   display: inline-block;
   padding-right: 20px;
-  padding-top: 20px;
 }
 .block-second .fl:last-child h2{
   font-size: 35px;
-  padding-top: 20px;
-}
-.block-second .fl:last-child p{
-  font-size: 18px;
-  padding-top: 20px;
-}
-.block-second .fl:last-child span{
-  font-size: 18px;
-  font-weight: bold;
 }
 .block-second .fl:last-child hr{
  position: relative;
@@ -290,8 +271,6 @@ margin-bottom: 20px;
   width: 80%;
   height: 100%;
   background-color: #fff;
-  box-shadow: 2px 2px 5px #000;
-  border-radius: 10px;
   margin: auto;
   text-align: center;
   padding: 0px 30px;
@@ -300,19 +279,13 @@ margin-bottom: 20px;
   text-align: left;
   list-style-type: none;
 }
-.box-content ul{
+.box-content ul,.box-content p{
   margin-bottom: 30px;
-}
-.box-content p{
-  margin-bottom: 30px;
-}
-.box-content .button{
-padding: 15px;
 }
 .block-third{
-height: 650px;
-color:#4c5f70;
-margin-top: 50px;
+ height: 650px;
+ color:#4c5f70;
+ margin-top: 50px;
 }
 .block-third i{
   margin: 2px 10px;
@@ -339,6 +312,7 @@ margin-top: 50px;
 .learn-header h2{
   font-size: 30px;
   color: #fff;
+  vertical-align: middle;
 }
 .learn-header p{
   font-size: 16px;
@@ -350,6 +324,12 @@ margin-top: 50px;
   height: 500px;
   text-align: center;
   padding-bottom: 20px;
+}
+.learn-block-container span{
+  font-size: 25px;
+}
+.learn-block-container h2{
+  display: inline-block;
 }
 .learn-and-grow{
   width: 25%;
@@ -369,6 +349,7 @@ margin-top: 50px;
 }
 .learn-2row{
   border-top: 1px solid #fff;
+  padding-top: 10px;
 }
 .first-of-row{
   border-left: none;
@@ -376,11 +357,7 @@ margin-top: 50px;
 /* /creo la sezione del learn and grow,la griglia e le immagini */
 
 /* creo la sezione delgi sponsor e l'immagine della donna */
-.sponsor-header{
-  width: 100%;
-  background-color: #fff;
-}
-.sponsor-content{
+.sponsor-header,.sponsor-content{
   width: 100%;
   background-color: #fff;
 }
@@ -402,18 +379,16 @@ margin-top: 50px;
   color:#4c5f70;
 }
 .sponsor-content .sponsor-box:first-child h2{
-font-size: 40px;
-margin-top: 50px;
-}
-.sponsor-content .sponsor-box:first-child span{
-padding: 15px;
+ font-size: 40px;
+ margin-top: 50px;
 }
 .sponsor-content .sponsor-box:first-child p{
-padding: 20px 0px;
-font-weight: 600;
+ padding: 20px 0px;
+ margin: 30px 0px;
+ font-weight: 600;
 }
 .sponsor-content .sponsor-box:first-child p:last-child{
-font-weight: 400;
+ font-weight: 400;
 }
 .sponsor-content .sponsor-box:nth-child(2){
   width: 50%;
@@ -426,20 +401,20 @@ font-weight: 400;
   position: relative;
 }
 .sponsor-box:nth-child(2) div{
-  width: 60%;
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 .sponsor-box:nth-child(2) img{
-  padding: 10px 10px;
+  padding: 10px 30px;
   text-align: center;
   vertical-align: middle;
 }
 .womanimage{
   height: 400px;
-  width: 350px;
+  width: 380px;
   float: right;
 }
 /* creo la sezione delgi sponsor e l'immagine della donna */
@@ -474,6 +449,8 @@ font-weight: 400;
 .list-head{
   color: #fff;
   font-weight: 700;
+}
+footer div:first-child,.list-head,footer div:nth-child(2) li{
   margin-top: 30px;
 }
 .support-button{
@@ -491,25 +468,19 @@ footer{
   margin: auto;
 }
 footer div:nth-child(2) li{
-  margin-top: 30px;
   display: inline-block;
   line-height: 40px;
-  font-weight: bold;
   color: #c2cedb;
   padding-right: 10px;
 }
-footer div:first-child{
-  margin-top: 30px;
-}
 .languages{
-width: 40%;
-margin: auto;
+ width: 40%;
+ margin: auto;
 }
 .languages li{
   padding-left: 25px;
 }
 /* Sezione finale di sviluppo footer e credits  */
 /* end version checked */
-
 
 /*<-- =^.^= --> */
