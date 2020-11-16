@@ -300,6 +300,9 @@ header{
   position: relative;
   top: 50px;
 }
+.block-third .box-content:last-child h3{
+  padding-top: 20px;
+}
 /* /creo tutta la sezione del Powerful Alone.Better together con le griglie e sfumature */
 
 /* creo la sezione del learn and grow,la griglia e le immagini */
@@ -327,6 +330,8 @@ header{
 }
 .learn-block-container span{
   font-size: 25px;
+  position: relative;
+  bottom: 3px;
 }
 .learn-block-container h2{
   display: inline-block;
@@ -336,16 +341,19 @@ header{
   height: 50%;
   border-left: 1px solid #fff;
   float: left;
-  text-align: center;
-  vertical-align: middle;
   padding-top: 70px;
   color: #fff;
 }
 .learn-and-grow img{
-  height: 55px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
 }
 .learn-and-grow h2{
   font-size: 35px;
+}
+.learn-and-grow div,.learn-and-grow img{
+  margin: 10px 0px;
 }
 .learn-2row{
   border-top: 1px solid #fff;
@@ -407,15 +415,14 @@ header{
   left: 50%;
   transform: translate(-50%,-50%);
 }
-.sponsor-box:nth-child(2) img{
-  padding: 10px 30px;
+img[alt="sponsor"]{
+  padding: 0px 30px;
+  height: 45px;
   text-align: center;
   vertical-align: middle;
 }
 .womanimage{
   height: 400px;
-  width: 380px;
-  float: right;
 }
 /* creo la sezione delgi sponsor e l'immagine della donna */
 
@@ -433,14 +440,12 @@ header{
   width: 25%;
   height: 100%;
 }
-.final-section .fl:nth-child(4) {
-  padding-right: 150px;
+.final-section .fl{
+  padding-right: 120px;
 }
-
 .final-section div:nth-child(2) li{
   display: inline-block;
 }
-
 .final-section li{
   list-style-type: none;
   text-align: left;
@@ -450,16 +455,20 @@ header{
   color: #fff;
   font-weight: 700;
 }
-footer div:first-child,.list-head,footer div:nth-child(2) li{
-  margin-top: 30px;
-}
 .support-button{
  background-color:#c2cedb;
  color: #32495b;
  border-radius: 10px;
 }
 .icon-section i{
-  padding-right: 20px;
+  padding-right: 30px;
+}
+.languages{
+  width: 40%;
+  margin: auto;
+}
+.languages li{
+  padding-left: 25px;
 }
 footer{
   height: 150px;
@@ -467,18 +476,17 @@ footer{
   border-top: 2px solid #c2cedb;
   margin: auto;
 }
+footer div:first-child,.list-head,footer div:nth-child(2) li{
+  margin-top: 30px;
+}
 footer div:nth-child(2) li{
   display: inline-block;
   line-height: 40px;
   color: #c2cedb;
   padding-right: 10px;
 }
-.languages{
- width: 40%;
- margin: auto;
-}
-.languages li{
-  padding-left: 25px;
+.section-footer img{
+  height: 60px;
 }
 /* Sezione finale di sviluppo footer e credits  */
 /* end version checked */
