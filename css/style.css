@@ -127,6 +127,10 @@ h2{
   position: relative;
   top: 3px;
 }
+.first-menu li:last-child,.second-menu li:last-child{
+  margin-right: 0px;
+  padding-right: 0px;
+}
 .second-menu{
   width: 80%;
   margin: auto;
@@ -381,10 +385,11 @@ header{
   padding-right:50px;
   height: 500px;
   color:#4c5f70;
+  padding-top: 70px;
 }
+/* TODO: sistemare margine */
 .sponsor-content .sponsor-box:first-child h2{
  font-size: 40px;
- margin-top: 50px;
 }
 .sponsor-content .sponsor-box:first-child p{
  padding: 20px 0px;
@@ -426,18 +431,12 @@ img[alt="sponsor"]{
   color:#c2cedb;
   background-color:#32495b;
 }
-.final-section div:first-child{
-  width: 100%;
-  height: 450px;
-}
 .final-section div:first-child .fl{
   width: 25%;
   height: 100%;
 }
-.final-section .fl{
-  padding-right: 120px;
-}
-.final-section div:nth-child(2) li{
+
+.languages li{
   display: inline-block;
 }
 .final-section li{
@@ -453,7 +452,10 @@ img[alt="sponsor"]{
  background-color:#c2cedb;
  color: #32495b;
  border-radius: 10px;
- margin: 15px 0px;
+ text-align: center;
+ width:250px;
+ height: 50px;
+ line-height: 50px;
 }
 .icon-section i{
   padding-right: 30px;
