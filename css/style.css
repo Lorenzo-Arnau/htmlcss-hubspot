@@ -32,12 +32,11 @@ color:#ffe8e4;
 padding: 0px 2px;
 line-height: 20px;
 }
-
 .button{
   background-color: #fe775a;
   color: #ffe8e4;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .button-big{
   padding: 25px 40px;
@@ -60,11 +59,13 @@ section{
 p,span,li{
   font-weight: 600;
 }
+h2{
+  font-size: 35px;
+}
 .high-line-height{
   line-height: 30px;
 }
 /* /reset e utility class */
-
 
 /* SPAZIO RISERVATO ALLE VARIE SEZIONI PAGINA PER I MACRO-CAMBIAMENTI */
 .section-one{
@@ -97,8 +98,6 @@ p,span,li{
   background-color: #32495b;
 }
 /* SPAZIO RISERVATO ALLE VARIE SEZIONI PAGINA PER I MACRO-CAMBIAMENTI */
-
-
 
 /* creo la parte principale dell'header con i due menu e le nav bar */
 .first-menu{
@@ -200,18 +199,14 @@ header{
  margin: auto;
  color:#4c5f70;
  padding-top: 30px;
-
 }
 .block-first div h2{
- font-size: 35px;
  padding-top: 20px;
 }
 .block-first div p{
   font-size: 18px;
-  font-weight: 600;
   padding: 30px 20px 50px 20px;
 }
-
 .block-second .fl:first-child{
   width: 25%;
   height: 400px;
@@ -219,7 +214,6 @@ header{
   border-radius: 10px;
   position: relative;
 }
-
 .container-learn{
   width: 200px;
   text-align:center;
@@ -259,9 +253,6 @@ header{
   display: inline-block;
   padding-right: 20px;
 }
-.block-second .fl:last-child h2{
-  font-size: 35px;
-}
 .block-second .fl:last-child hr{
  position: relative;
  top: 10px;
@@ -299,11 +290,13 @@ header{
 .block-third i{
   margin: 2px 10px;
 }
-.block-third h2{
-  margin-bottom: 35px;
-}
 .block-third h3{
+  margin-bottom: 35px;
+  font-size: 27px;
+}
+.block-third h4{
   padding: 20px 0px;
+  font-size: 1.2em;
 }
 .block-third span{
   position: relative;
@@ -317,7 +310,6 @@ header{
   margin: 0px auto 30px auto;
   text-align: center;
   padding: 20px 20px;
-
 }
 .learn-header h2{
   font-size: 30px;
@@ -327,7 +319,6 @@ header{
 .learn-header p{
   font-size: 16px;
   color: #fff;
-  font-weight: 600;
 }
 .learn-block-container{
   width: 100%;
@@ -355,9 +346,6 @@ header{
   height: 35px;
   text-align: center;
   vertical-align: middle;
-}
-.learn-and-grow h2{
-  font-size: 35px;
 }
 .learn-and-grow div,.learn-and-grow img{
   margin: 10px 0px;
@@ -401,10 +389,8 @@ header{
 .sponsor-content .sponsor-box:first-child p{
  padding: 20px 0px;
  margin: 30px 0px;
- font-weight: 600;
 }
 .sponsor-content .sponsor-box:first-child p:last-child{
- font-weight: 600;
  margin-top: 50px;
 }
 .sponsor-content .sponsor-box:nth-child(2){
